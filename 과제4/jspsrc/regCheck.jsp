@@ -14,7 +14,7 @@
      취미:<%= String [] uHobby = request.getParameter("stud_hobbt")%>
      <%
       if(uHobby == nul){ out.println("입력내용없음");
-      } else{
+      } else {
         for(int i=0; i<uHobby.length; i++){
           out.println(uHobby[i]);
         }
